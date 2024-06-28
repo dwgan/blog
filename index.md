@@ -47,3 +47,7 @@ We introduce KNX into the system, which allow different EV charger from differen
 ### [**STKNX CO2 Sensor**](https://github.com/dwgan/STKNX_CO2Sensor)
 
 ![image-20240628185247365](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240628185247365.png)
+
+## Efficient Wok Style
+
+## [How to manage files on computer]({{ site.baseurl }}{% post_url 2024-06-29-How-to-manage-files-on-computer %})
