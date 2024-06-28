@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Efficient-working-style"
+title: "How-to-manage-files-on-computer"
 date: 2024-06-29
 ---
 

@@ -22,7 +22,7 @@ To maximize the efficient usage of GPUs, I built a Super Server Platform for mul
 
 
 
-### **Mamba**
+### [**Mamba**]({{ site.baseurl }}{% post_url 2024-06-28-Mamba %})
 
 To optimize the information representation efficiency, we explore the newest space state model and employ it to image representation.
 
