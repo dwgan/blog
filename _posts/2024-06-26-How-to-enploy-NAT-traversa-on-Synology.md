@@ -84,6 +84,8 @@ date: 2024-06-26
 
 ![image-20240627155307914](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240627155307914.png)
 
+![image-20240716143422496](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240716143422496.png)
+
 4、修改Home Assistant中的代理设置
 
 ![image-20240716114750268](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240716114750268.png)
