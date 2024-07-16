@@ -101,3 +101,5 @@ date: 2024-06-26
 ## 参考
 
 > [如何在群晖系统中安装cpolar（群晖7.X版） - cpolar 极点云官网](https://www.cpolar.com/blog/how-to-install-cpolar-on-a-synology-system-cfah-version-7-x)
+
+> [如何搭建Home Assistant智能家居系统并通过内网穿透实现远程控制家中设备 - cpolar 极点云官网](https://www.cpolar.com/blog/how-to-build-a-home-assistant-smart-home-system-and-remotely-control-home-devices-through-intranet-penetration)
