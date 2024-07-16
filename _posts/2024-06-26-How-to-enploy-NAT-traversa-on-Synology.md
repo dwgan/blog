@@ -84,7 +84,11 @@ date: 2024-06-26
 
 ![image-20240627155307914](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240627155307914.png)
 
-4、使用浏览器连接，可以打开群晖管理界面以及home assistant界面
+4、修改Home Assistant中的代理设置
+
+![image-20240716114750268](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240716114750268.png)
+
+5、使用浏览器连接，可以打开群晖管理界面以及home assistant界面
 
 ![image-20240627155314709](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240627155314709.png)
 
