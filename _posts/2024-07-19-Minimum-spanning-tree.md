@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Minimum spanning tree"
+date: 2024-07-19
 ---
 
 
