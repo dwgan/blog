@@ -13,7 +13,7 @@ You are also welcome to visit my [**CSDN Blog**](https://dwgan.blog.csdn.net/), 
 
 In recent years, deep learning technology have dramatically change the world. The rapid rise of ChatGPT has changed how people solve problems and strengthened the positive view of artificial intelligence. This change has brought a lot of investment into the field, attracting more researchers to AI. New technologies are appearing every month, increasing competition in the industry. As a result, professionals need to keep updating their skills to avoid falling behind.
 
-Since I have experience on Image Compressed Sensing, I turned my interest to Deep Image Processing. I am recently interested in newest model that can perform Efficient Representation and Low Complexity. I have kept updating newest model that recent proposed, like [Mamba](https://arxiv.org/abs/2312.00752), KAN ([Kolmogorov-arnold **networks**](https://arxiv.org/abs/2404.19756)) etc.
+Since I have experience on Image Compressed Sensing, I turned my interest to Deep Image Processing. I am recently interested in newest model that can perform Efficient Representation and Low Complexity. I have kept updating newest model that recent proposed, like [Mamba](https://arxiv.org/abs/2312.00752), [KAN](https://arxiv.org/abs/2404.19756) etc.
 
 ### [**Mamba**]({{ site.baseurl }}{% post_url 2024-06-28-Mamba %})
 
@@ -21,7 +21,7 @@ To optimize the information representation efficiency, we explore the newest spa
 
 
 
-[**Super Server Platform**](https://dwgan.github.io/super-server-platform/)
+### [**Super Server Platform**](https://dwgan.github.io/super-server-platform/)
 
 To maximize the efficient usage of GPUs, I built a Super Server Platform for multiple online user, which is based on **Linux Container**.\
 ![image-202406211933798](https://raw.githubusercontent.com/dwgan/PicGo/main/img/202406211933798.png)
