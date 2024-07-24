@@ -26,6 +26,8 @@ Attention机制这种天生具有非因果特性的网络和图像中的要求�
 
 [State Space Duality (Mamba-2) Part I - The Model | Tri Dao](https://tridao.me/blog/2024/mamba2-part1-model/)
 
+[【BBuf的CUDA笔记】十五，OpenAI Triton入门笔记三 FusedAttention - GiantPandaCV](http://giantpandacv.com/project/CUDA/【BBuf的CUDA笔记】十五，OpenAI Triton入门笔记三 FusedAttention/)
+
 
 
 ## State Space Model (SSM)
