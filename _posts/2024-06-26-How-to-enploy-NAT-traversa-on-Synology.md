@@ -22,17 +22,78 @@ date: 2024-06-26
 
 按照具体部署方式，主要分为：
 
-1、向VPS服务商购买带有公网IP的VPS，然后在VPS上搭建代理服务，一般按照VPS配置按年付费。该方式安全性高，用户体验好，对技术要求较高。
+1、向内网穿透服务提供商购买内网穿透服务，通过厂商的带有公网IP的VPS进行代理，一般按照流量、带宽、节点数进行付费。该方案实现起来相对方便，由于都是公用带宽，所以用户体验一般，同时安全性相对可靠。
 
-2、向内网穿透服务提供商购买内网穿透服务，通过厂商的带有公网IP的VPS进行代理，一般按照流量、带宽、节点数进行付费。该方案实现起来相对方便，由于都是公用带宽，所以用户体验一般，同时安全性相对可靠。
+2、向VPS服务商购买带有公网IP的VPS，然后在VPS上搭建代理服务，一般按照VPS配置按年付费。该方式安全性高，用户体验好，对技术要求较高。
 
 3、使用免费的内网穿透，一些厂商会提供免费的服务用于吸引用户，例如：Sakura、Cpolar。该方案免费，但不适合要求较高的应用。
 
-这里主要是用于控制家居的开关，因此数据量非常小，同时考虑到成本，这里采用了第三种方案，采用Cpolar提供的免费服务。
+这里主要是用于控制家居的开关，因此数据量非常小，同时考虑到成本，这里尝试了后两种方案。
 
-## 二、安装过程
+## 二、自建frp服务器
 
-### 2.1 下载安装包
+### 2.2 frpc配置
+
+连接上群晖，在桌面新建一个文件`frpc.ini`，内容如下
+
+```shell
+[common]
+server_addr = [公网IP]
+server_port = [默认是7000]
+tcp_mux = true
+protocol = tcp
+user = [用户名]
+token = [验证密钥]
+dns_server = 114.114.114.114
+
+[DS923] # 隧道的标识，不能重复
+type = tcp
+local_ip = 192.168.0.199
+local_port = 5000
+remote_port = 25000
+use_encryption = true
+use_compression = true
+
+[Home Assistant]
+type = tcp
+local_ip = 192.168.0.10
+local_port = 8123
+remote_port = 28123
+use_encryption = true
+use_compression = true
+```
+
+在群晖`file station`中新建如下文件夹，并且将`frpc.ini`拖到文件夹中
+
+![image-20240729182600741](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240729182600741.png)
+
+在套件中心搜索安装docker，新版的改名为Container Manager了
+
+![image-20240729182700780](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240729182700780.png)
+
+打开docker，搜索安装`frp`，我这里选择`0.50.0`这个版本，注意要和frps的版本匹配
+
+![image-20240729182641515](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240729182641515.png)
+
+安装后启动它，在存储空间设置添加如下内容，将`file station`中的文件映射到docker容器中
+
+![image-20240729183118098](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240729183118098.png)
+
+启动docker，可以在frps管理界面看到已经连接上了
+
+![image-20240729183305905](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240729183305905.png)
+
+尝试网页打开，已经可以连接上了
+
+![image-20240729183446859](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240729183446859.png)
+
+> [内网穿透Nas 基于Frp实现群晖的远程访问 – Frps.cn 中文文档](https://frps.cn/41.html)
+
+
+
+## 三、基于Cpolar
+
+### 3.1 下载安装包
 
 1、cpolar群晖套件下载地址：https://www.cpolar.com/synology-cpolar-suite
 
@@ -68,7 +129,7 @@ date: 2024-06-26
 
 ![image-20240627155215194](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240627155215194.png)
 
-### 2.2 配置网络
+### 3.2 配置网络
 
 1、配置Home Assistant的IP和端口，IP可以在群晖中找到，端口默认是8123
 
