@@ -34,11 +34,11 @@ As a System Application Engineer at ST, my recent work mainly focus on Smart Hom
 
 Here are some topics that I recently focus on
 
-### [**Synology**]({{ site.baseurl }}{% post_url 2024-06-26-How-to-enploy-NAT-traversa-on-Synology %})
+### [**NAT traversal**]({{ site.baseurl }}{% post_url 2024-06-26-How-to-enploy-NAT-traversa-on-Synology %})
 
 In order to realize smart home / building automation, including remote control and data storage, we employ a Synology based data center.
 
-
+![img](https://raw.githubusercontent.com/dwgan/PicGo/main/img/202407310227512.png)
 
 ### [**ST RFID Reader**](https://github.com/dwgan/ST-RFID-Reader)
 
@@ -57,6 +57,10 @@ Nowadays, EV car are more and more popular, but the number of EV charge station 
 We introduce KNX into the system, which allow different EV charger from different suppliers exchange data if they use KNX protocol. This platforms  will help to have more EV chargers more long term in terms of sustainability because in a system integrators will not care about the the supplier of EV charger, but they are just they just need to be concerned that the EV charger is compliant to can existing standard. And today existing standard already have all this available to be deployed for energy management system and in particular EV chargers that will help again the deployment of more EV.
 
 ![image-20240711175747573](https://raw.githubusercontent.com/dwgan/PicGo/main/img/image-20240711175747573.png)
+
+<img src="https://raw.githubusercontent.com/dwgan/PicGo/main/img/202407310227204.png" alt="image-20240731021652128" style="zoom: 25%;" />
+
+
 
 ### [**STKNX CO2 Sensor**](https://github.com/dwgan/STKNX_CO2Sensor)
 
