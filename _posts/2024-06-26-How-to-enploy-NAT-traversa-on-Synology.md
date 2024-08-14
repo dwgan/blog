@@ -65,27 +65,27 @@ use_compression = true
 
 在群晖`file station`中新建如下文件夹，并且将`frpc.ini`拖到文件夹中
 
-![image-20240729182600741](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240729182600741.png)
+![image-20240729182600741](https://pic.dwgan.top/img/image-20240729182600741.png)
 
 在套件中心搜索安装docker，新版的改名为Container Manager了
 
-![image-20240729182700780](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240729182700780.png)
+![image-20240729182700780](https://pic.dwgan.top/img/image-20240729182700780.png)
 
 打开docker，搜索安装`frp`，我这里选择`0.50.0`这个版本，注意要和frps的版本匹配
 
-![image-20240729182641515](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240729182641515.png)
+![image-20240729182641515](https://pic.dwgan.top/img/image-20240729182641515.png)
 
 安装后启动它，在存储空间设置添加如下内容，将`file station`中的文件映射到docker容器中
 
-![image-20240729183118098](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240729183118098.png)
+![image-20240729183118098](https://pic.dwgan.top/img/image-20240729183118098.png)
 
 启动docker，可以在frps管理界面看到已经连接上了
 
-![image-20240729183305905](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240729183305905.png)
+![image-20240729183305905](https://pic.dwgan.top/img/image-20240729183305905.png)
 
 尝试网页打开，已经可以连接上了
 
-![image-20240729183446859](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240729183446859.png)
+![image-20240729183446859](https://pic.dwgan.top/img/image-20240729183446859.png)
 
 > [内网穿透Nas 基于Frp实现群晖的远程访问 – Frps.cn 中文文档](https://frps.cn/41.html)
 
@@ -99,63 +99,63 @@ use_compression = true
 
 2、没有DS923的型号，这里选择DS920+替代。
 
-![image-20240627154924012](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627154924012.png)
+![image-20240627154924012](https://pic.dwgan.top/img/image-20240627154924012.png)
 
 3、选择手动安装并且上传
 
-![image-20240627155013558](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155013558.png)
+![image-20240627155013558](https://pic.dwgan.top/img/image-20240627155013558.png)
 
-![image-20240627155033781](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155033781.png)
+![image-20240627155033781](https://pic.dwgan.top/img/image-20240627155033781.png)
 
 4、点击同意并且完成
 
-![image-20240627155041301](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155041301.png)
+![image-20240627155041301](https://pic.dwgan.top/img/image-20240627155041301.png)
 
-![image-20240627155131327](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155131327.png)
+![image-20240627155131327](https://pic.dwgan.top/img/image-20240627155131327.png)
 
 
 
 5、在已安装中找到cpolar
 
-![image-20240627155151390](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155151390.png)
+![image-20240627155151390](https://pic.dwgan.top/img/image-20240627155151390.png)
 
 
 
 6、打开cpolar的网址进入dashboard
 
-![image-20240627155206262](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155206262.png)
+![image-20240627155206262](https://pic.dwgan.top/img/image-20240627155206262.png)
 
 7、登录已注册的cpolar账号（如果没有请先注册），注意：第一次登录的账号将被记录到系统中，再次更改需要重新安装
 
-![image-20240627155215194](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155215194.png)
+![image-20240627155215194](https://pic.dwgan.top/img/image-20240627155215194.png)
 
 ### 3.2 配置网络
 
 1、配置Home Assistant的IP和端口，IP可以在群晖中找到，端口默认是8123
 
-![image-20240627155230215](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155230215.png)
+![image-20240627155230215](https://pic.dwgan.top/img/image-20240627155230215.png)
 
-![image-20240627155248867](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155248867.png)
+![image-20240627155248867](https://pic.dwgan.top/img/image-20240627155248867.png)
 
 2、配置群晖的端口为5001
 
-![image-20240627155300755](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155300755.png)
+![image-20240627155300755](https://pic.dwgan.top/img/image-20240627155300755.png)
 
 3、可以在状态->在线隧道列表中找到配置好的连接
 
-![image-20240627155307914](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155307914.png)
+![image-20240627155307914](https://pic.dwgan.top/img/image-20240627155307914.png)
 
-![image-20240716143422496](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240716143422496.png)
+![image-20240716143422496](https://pic.dwgan.top/img/image-20240716143422496.png)
 
 4、修改Home Assistant中的代理设置
 
-![image-20240716114750268](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240716114750268.png)
+![image-20240716114750268](https://pic.dwgan.top/img/image-20240716114750268.png)
 
 5、使用浏览器连接，可以打开群晖管理界面以及home assistant界面
 
-![image-20240627155314709](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155314709.png)
+![image-20240627155314709](https://pic.dwgan.top/img/image-20240627155314709.png)
 
-![image-20240627155331985](https://cdn.jsdelivr.net/gh/dwgan/PicGo@main/img/image-20240627155331985.png)
+![image-20240627155331985](https://pic.dwgan.top/img/image-20240627155331985.png)
 
 完结！
 
