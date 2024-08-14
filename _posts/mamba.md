@@ -10,7 +10,7 @@ Recently, the most popular language models like OpenAI's ChatGPT, Google's Gemin
 
 ## Transformer
 
-![image-20240629120419102](https://pic.dwgan.top/img/202406291204139.png)
+![image-20240629120419102](https://dwgan.top/PicGo/img/202406291204139.png)
 
 ## Some tutorial:
 
