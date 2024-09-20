@@ -30,8 +30,9 @@ To optimize the information representation efficiency, we explore the newest spa
 To maximize the efficient usage of GPUs, I built a Super Server Platform for multiple online user, which is based on **Linux Container**.\
 
 <p align="center">
-	<img src="https://dwgan.top/PicGo/img/202406211933798.png" alt="image-20240117221213953" style="zoom:50%;" />
+	<img src="https://dwgan.top/PicGo/img/202406211933798.png" alt="image-20240117221213953" style="zoom:35%;" />
 </p>
+
 
 
 
@@ -44,7 +45,7 @@ Here are some topics that I recently focus on
 ### [STM32MP1](https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html)
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/202409210037469.png" style="zoom: 75%;" />
+  <img src="https://dwgan.top/PicGo/img/202409210037469.png" style="zoom: 50%;" />
 </p>
 
 
@@ -54,8 +55,9 @@ Here are some topics that I recently focus on
 
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/image-20240628185032085.png" style="zoom: 25%;" />
+  <img src="https://dwgan.top/PicGo/img/image-20240628185032085.png" style="zoom: 18%;" />
 </p>
+
 
 
 
@@ -68,8 +70,9 @@ Nowadays, EV car are more and more popular, but the number of EV charge station 
 We introduce KNX into the system, which allow different EV charger from different suppliers exchange data if they use KNX protocol. This platforms  will help to have more EV chargers more long term in terms of sustainability because in a system integrators will not care about the the supplier of EV charger, but they are just they just need to be concerned that the EV charger is compliant to can existing standard. And today existing standard already have all this available to be deployed for energy management system and in particular EV chargers that will help again the deployment of more EV.
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/image-20240711175747573.png" style="zoom: 80%;" />
+  <img src="https://dwgan.top/PicGo/img/image-20240711175747573.png" style="zoom: 60%;" />
 </p>
+
 
 
 
@@ -77,8 +80,9 @@ We introduce KNX into the system, which allow different EV charger from differen
 ### [**STKNX CO2 Sensor**](https://github.com/dwgan/STKNX_CO2Sensor)
 
 <p align="center">
-	<img src="https://dwgan.top/PicGo/img/image-20240628185247365.png" alt="image-20240117221213953" style="zoom:23%;" />
+	<img src="https://dwgan.top/PicGo/img/image-20240628185247365.png" alt="image-20240117221213953" style="zoom:15%;" />
 </p>
+
 
 
 
@@ -89,8 +93,9 @@ We introduce KNX into the system, which allow different EV charger from differen
 In order to realize smart home / building automation, including remote control and data storage, we employ a Synology based data center.
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/202409210040470.png" style="zoom: 75%;" />
+  <img src="https://dwgan.top/PicGo/img/202409210040470.png" style="zoom: 50%;" />
 </p>
+
 
 
 
