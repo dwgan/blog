@@ -45,8 +45,9 @@ Here are some topics that I recently focus on
 ### [STM32MP1](https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html)
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/202409210037469.png" style="zoom: 50%;" />
+  <img src="https://dwgan.top/PicGo/img/202409210037469.png" style="zoom: 33%;" />
 </p>
+
 
 
 
