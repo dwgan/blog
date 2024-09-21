@@ -21,7 +21,7 @@ Since I have experience on Image Compressed Sensing, I turned my interest to Dee
 
 ## Deep Compressed Sensing
 
-To optimize the information representation efficiency, we explore the newest space state model and employ it to image representation. [Learn more](({{ site.baseurl }}{% post_url 2024-06-28-Mamba %}))
+To optimize the information representation efficiency, we explore the newest space state model and employ it to image representation. [Learn more]({{ site.baseurl }}{% post_url 2024-06-28-Mamba %})
 
 
 
