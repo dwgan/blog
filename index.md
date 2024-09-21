@@ -11,10 +11,6 @@ You are also welcome to visit my [**CSDN Blog**](https://dwgan.blog.csdn.net/), 
 
 
 
----
-
-
-
 # **Deep Learning**
 
 In recent years, deep learning technology have dramatically change the world. The rapid rise of ChatGPT has changed how people solve problems and strengthened the positive view of artificial intelligence. This change has brought a lot of investment into the field, attracting more researchers to AI. New technologies are appearing every month, increasing competition in the industry. As a result, professionals need to keep updating their skills to avoid falling behind.
@@ -40,7 +36,7 @@ To maximize the efficient usage of GPUs, I built a Super Server Platform for mul
 </p>
 
 
----
+
 
 # **Smart Industrial**
 
