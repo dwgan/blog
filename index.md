@@ -32,7 +32,7 @@ To optimize the information representation efficiency, we explore the newest spa
 To maximize the efficient usage of GPUs, I built a Super Server Platform for multiple online user, which is based on **Linux Container**. [Learn more](https://dwgan.github.io/super-server-platform/)
 
 <p align="center">
-	<img src="https://dwgan.top/PicGo/img/202406211933798.png" alt="image-20240117221213953" style="zoom:35%;" />
+	<img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202406211933798.png" alt="image-20240117221213953" style="zoom:35%;" />
 </p>
 
 
@@ -51,7 +51,7 @@ Here are some topics that I recently focus on
 In this project, we explored the advantage of STM32MPU to design powerful development platform with lower price. The STM32MP157 is a heterogeneous system architecture with an A7 core and an M4 core. The A7 core can run a Linux system and execute high-performance tasks such as human-machine interfaces (HMI), video encoding/decoding, and providing USB and Ethernet interfaces. The M4 core can run real-time tasks such as motor control and sensor data acquisition. [Learn more](https://www.st.com/en/microcontrollers-microprocessors/stm32-arm-cortex-mpus.html)
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/202409210037469.png" style="zoom: 33%;" />
+  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202409210037469.png" style="zoom: 33%;" />
 </p>
 
 
@@ -60,7 +60,7 @@ In this project, we explored the advantage of STM32MPU to design powerful develo
 RFID is one of the most widely used radio frequency communication technologies today, playing an important role in areas such as payment and security. We aim to integrate it into smart industrial and smart home applications. Our team has provided a demo that showcases RFID communication and serves as a reference solution for smart industrial and smart home systems, primarily based on ST's microchips. [Learn more](https://github.com/dwgan/STKNX-RFID-Reader)
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/image-20240628185032085.png" style="zoom: 18%;" />
+  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20240628185032085.png" style="zoom: 18%;" />
 </p>
 
 
@@ -69,7 +69,7 @@ RFID is one of the most widely used radio frequency communication technologies t
 This project provides a reference solution of connecting sensors into KNX system via UART. [learn more](https://github.com/dwgan/STKNX_CO2Sensor)
 
 <p align="center">
-	<img src="https://dwgan.top/PicGo/img/image-20240628185247365.png" alt="image-20240117221213953" style="zoom:15%;" />
+	<img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20240628185247365.png" alt="image-20240117221213953" style="zoom:15%;" />
 </p>
 
 
@@ -81,7 +81,7 @@ Nowadays, EV car are more and more popular, but the number of EV charge station 
 We introduce KNX into the system, which allow different EV charger from different suppliers exchange data if they use KNX protocol. This platforms  will help to have more EV chargers more long term in terms of sustainability because in a system integrators will not care about the the supplier of EV charger, but they are just they just need to be concerned that the EV charger is compliant to can existing standard. And today existing standard already have all this available to be deployed for energy management system and in particular EV chargers that will help again the deployment of more EV. [Learn more](https://github.com/dwgan/STKNX_ChargeStation)
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/image-20240711175747573.png" style="zoom: 60%;" />
+  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20240711175747573.png" style="zoom: 60%;" />
 </p>
 
 
@@ -90,7 +90,7 @@ We introduce KNX into the system, which allow different EV charger from differen
 In order to realize smart home / building automation, including remote control and data storage, we employ a Synology based data center. To realize remote data monitor, we need to explore data interface to Internet while keep safety of our data. We build our own NAT traversal server to provide the interface. [Learn more]({{ site.baseurl }}{% post_url 2024-06-26-How-to-enploy-NAT-traversa-on-Synology %})
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/202409210040470.png" style="zoom: 50%;" />
+  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202409210040470.png" style="zoom: 50%;" />
 </p>
 
 
@@ -103,7 +103,7 @@ In certain specific environments, such as areas lit by incandescent bulbs indoor
 The SPV1050 is an ultra-low power and high-efficiency power manager embedding four MOSFETs for boost or buck-boost DC-DC converter and an additional transistor for the load connection/disconnection. An internal high accuracy MPPT algorithm can be used to maximize the power extracted from PV panel or TEG. The internal logic works to guarantee tight monitoring of both the end-of-charge voltage (VEOC) and the minimum battery voltage (VUVP) by opening the pass-transistor at triggering of the VEOC threshold or at triggering of the VUVP threshold to preserve the battery life.
 
 <p align="center">
-  <img src="https://dwgan.top/PicGo/img/image-20240924145737780.png" style="zoom: 50%;" />
+  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20240924145737780.png" style="zoom: 50%;" />
 </p>
 
 
