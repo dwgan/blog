@@ -87,7 +87,7 @@ We introduce KNX into the system, which allow different EV charger from differen
 
 ## NAT Traversal
 
-In order to realize smart home / building automation, including remote control and data storage, we employ a Synology based data center. To realize remote data monitor, we need to explore data interface to Internet while keep safety of our data. We build our own NAT traversal server to provide the interface. [Learn more]({{ site.baseurl }}{% post_url 2024-06-26-How-to-enploy-NAT-traversa-on-Synology %})
+In order to realize smart home / building automation, including remote control and data storage, we employ a Synology based data center. To realize remote data monitor, we need to explore data interface to Internet while keep safety of our data. We build our own NAT traversal server to provide the interface. [Learn more]({{ site.baseurl }}{% post_url 2025-01-23-How-to-enploy-NAT-traversa-on-Ubuntu %})
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202409210040470.png" style="zoom: 50%;" />
