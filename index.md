@@ -5,7 +5,9 @@ title: Home
 
 
 
-Hi there. Welcome to my blog. This blog contains some topic that I recently interested in, including **Deep Learning**, and **Smart Industrial**.
+Hi there. Welcome to my blog.
+
+Recently, I am interested in **Deep Learning** and **Smart Industrial**.
 
 You are also welcome to visit my [**CSDN Blog**](https://dwgan.blog.csdn.net/), which is about **Embedded Development**  and **Compressed Sensing**.
 
