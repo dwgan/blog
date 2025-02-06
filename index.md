@@ -17,8 +17,6 @@ You are also welcome to visit my [**CSDN Blog**](https://dwgan.blog.csdn.net/), 
 
 In recent years, deep learning technology have dramatically change the world. The rapid rise of ChatGPT has changed how people solve problems and strengthened the positive view of artificial intelligence. This change has brought a lot of investment into the field, attracting more researchers to AI. New technologies are appearing every month, increasing competition in the industry. As a result, professionals need to keep updating their skills to avoid falling behind.
 
-Since I have experience on Image Compressed Sensing, I turned my interest to Deep Image Processing. I am recently interested in newest model that can perform Efficient Representation and Low Complexity. I have kept updating newest model that recent proposed, like [Mamba](https://arxiv.org/abs/2312.00752), [KAN](https://arxiv.org/abs/2404.19756) etc.
-
 
 
 ## Deep Compressed Sensing
@@ -89,7 +87,7 @@ We introduce KNX into the system, which allow different EV charger from differen
 
 ## NAT Traversal
 
-In order to realize smart home / building automation, including remote control and data storage, we employ a Synology based data center. To realize remote data monitor, we need to explore data interface to Internet while keep safety of our data. We build our own NAT traversal server to provide the interface. [Learn more]({{ site.baseurl }}{% post_url 2025-01-23-How-to-enploy-NAT-traversa-on-Ubuntu %})
+[Learn more]({{ site.baseurl }}{% post_url 2025-01-23-How-to-enploy-NAT-traversa-on-Ubuntu %})
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202409210040470.png" style="zoom: 50%;" />
