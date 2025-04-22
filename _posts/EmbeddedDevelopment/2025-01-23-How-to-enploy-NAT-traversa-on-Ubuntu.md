@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post/EmbeddedDevelopment
 title: "如何在Ubuntu上部署内网穿透，实现远程访问"
 date: 2024-06-26
 ---
