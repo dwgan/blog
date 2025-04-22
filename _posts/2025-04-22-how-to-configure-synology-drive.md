@@ -43,7 +43,7 @@ date: 2025-04-22
 5、出现如下界面说明设置完成，转圈说明正在同步
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20250422114837495.png" style="zoom: 50%;" />
+  <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20250422114837495.png" style="zoom: 36%;" />
   <br>
 </p>
 
