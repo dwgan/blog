@@ -4,13 +4,11 @@ title: "Windows下配置Synology Drive使用教程"
 date: 2025-04-22
 ---
 
-## 使用步骤
-
-### 获取客户端
+### 一、获取客户端
 
 点击该[链接](https://global.synologydownload.com/download/Utility/SynologyDriveClient/3.5.2-16111/Windows/Installer/x86_64/Synology%20Drive%20Client-3.5.2-16111-x64.exe)现在Synology Drive Client并安装
 
-### 配置客户端
+### 二、配置客户端
 
 1、 配置NAS地址，用户名及密码
 
@@ -47,7 +45,7 @@ date: 2025-04-22
   <br>
 </p>
 
-### 客户端使用
+### 三、客户端使用
 
 像使用Onedrive一样，将文件放到Synology Drive的文件夹下，等待同步完成，即表示文件同步到了服务器。
 
