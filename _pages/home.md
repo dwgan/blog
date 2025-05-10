@@ -22,7 +22,7 @@ In recent years, deep learning technology have dramatically change the world. Th
 
 ## Deep Compressed Sensing
 
-To optimize the information representation efficiency, we explore the newest space state model and employ it to image representation. [Learn more]({{ site.baseurl }}{% post_url 2024-06-28-Mamba %})
+To optimize the information representation efficiency, we explore the newest space state model and employ it to image representation. [Learn more]
 
 
 
@@ -30,7 +30,7 @@ To optimize the information representation efficiency, we explore the newest spa
 
 ## Super Server Platform
 
-To maximize the efficient usage of GPUs, I built a Super Server Platform for multiple online user, which is based on **Linux Container**. [Learn more](https://dwgan.github.io/super-server-platform/)
+To maximize the efficient usage of GPUs, I built a Super Server Platform for multiple online user, which is based on **Linux Container**. [Learn more](https://g230.top)
 
 <p align="center">
 	<img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202406211933798.png" alt="image-20240117221213953" style="zoom:35%;" />
@@ -88,7 +88,7 @@ We introduce KNX into the system, which allow different EV charger from differen
 
 ## NAT Traversal
 
-[Learn more]({{ site.baseurl }}{% post_url 2025-01-23-How-to-enploy-NAT-traversa-on-Ubuntu %})
+<!-- [Learn more]({{ site.baseurl }}{% post_url 2025-01-23-How-to-enploy-NAT-traversa-on-Ubuntu %}) -->
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202409210040470.png" style="zoom: 50%;" />
@@ -107,9 +107,4 @@ The SPV1050 is an ultra-low power and high-efficiency power manager embedding fo
   <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/image-20240924145737780.png" style="zoom: 50%;" />
 </p>
 
-
-
-## How to manage files on computer
-
-[Learn more]({{ site.baseurl }}{% post_url 2024-06-29-How-to-manage-files-on-computer %})
 
