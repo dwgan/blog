@@ -10,4 +10,5 @@ locale                   : "ch-CN"
 title                    : "blog"
 title_separator          : "-"
 description              : &description "personal description"
-url                      : https://blog.dwgan.top
+url                      : https://blog.dwgan.top # the base hostname & protocol for your site e.g. "https://dwgan.github.io"
+baseurl                  : "" # "https://dwgan.blog.csdn.net" # the subpath of your site, e.g. "/blog"
