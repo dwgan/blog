@@ -3,6 +3,8 @@ layout: archive
 permalink: /
 # title: "Biography"
 author_profile: false
+toc: true
+# toc_sticky: true
 ---
 
 
