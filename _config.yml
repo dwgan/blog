@@ -7,14 +7,11 @@
 
 # Site Settings
 locale                   : "ch-CN"
-title                    : "Dongwen Gan / 甘东文"
+title                    : "blog"
 title_separator          : "-"
-name                     : &name "Dongwen Gan"
 description              : &description "personal description"
-url                      : https://dwgan.top # the base hostname & protocol for your site e.g. "https://dwgan.github.io"
+url                      : https://blog.dwgan.top # the base hostname & protocol for your site e.g. "https://dwgan.github.io"
 baseurl                  : "" # "https://dwgan.blog.csdn.net" # the subpath of your site, e.g. "/blog"
-repository               : "dwgan/dwgan.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -76,45 +73,6 @@ analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             : "Dongwen Gan"
-  avatar           : "profile.png"
-  bio              : "Master from Xidian University"
-  location         : "Shenzhen, CN"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=y_LlXEoAAAAJ&hl=zh-CN&oi=ao"
-  github           : "dwgan"
-  email            : "dwgan@stu.xidian.edu.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://dwgan.blog.csdn.net"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : #"replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
