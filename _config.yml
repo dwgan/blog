@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "ch-CN"
-title                    : "home"
+title                    : ""
 title_separator          : "-"
 description              : &description "personal description"
 url                      : https://blog.dwgan.top # the base hostname & protocol for your site e.g. "https://dwgan.github.io"
