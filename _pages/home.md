@@ -1,7 +1,8 @@
 ---
+layout: archive
 permalink: /
 # title: "Biography"
-# author_profile: true
+author_profile: false
 ---
 
 
