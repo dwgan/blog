@@ -88,9 +88,6 @@ We introduce KNX into the system, which allow different EV charger from differen
 
 ## NAT Traversal
 
-<!--
-[Learn more]({{ site.baseurl }}{% post_url 2025-01-23-How-to-enploy-NAT-traversa-on-Ubuntu %})
--->
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/dwgan/PicGo/img/202409210040470.png" style="zoom: 50%;" />
