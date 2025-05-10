@@ -1,12 +1,12 @@
 # main links links
-main:
+# main:
 #  - title: "Publications"
 #    url: /publications/
     
-  - title: "Research"
-    url: /research/
-  - title: "Blog"
-    url: https://blog.dwgan.top
+  # - title: "Research"
+  #   url: /research/
+  # - title: "Blog"
+  #   url: https://blog.dwgan.top
     
 # - title: "CV"
 #   url: /cv/
