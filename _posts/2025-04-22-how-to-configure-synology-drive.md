@@ -8,6 +8,8 @@ date: 2025-04-22
 
 [下载链接](https://www.synology.cn/zh-cn/dsm/feature/drive)
 
+若安卓用户无法使用官方版本，可以选择[备用版](https://www.ddooo.com/softdown/249769.htm)
+
 
 ### 二、Windows客户端配置
 
@@ -49,6 +51,8 @@ date: 2025-04-22
 ### 三、ISO与Android客户端配置
 
 与Windows版本不同，ISO客户端的登录端口是群晖默认后台登陆的端口，我这里是5000的内网穿透端口
+
+安卓用户打开客户端会提示更新，更新后点完成，不要点打开！
 
 ### 四、客户端使用
 
