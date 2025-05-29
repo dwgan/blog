@@ -6,9 +6,10 @@ date: 2025-04-22
 
 ### 一、获取客户端
 
-点击该[链接](https://global.synologydownload.com/download/Utility/SynologyDriveClient/3.5.2-16111/Windows/Installer/x86_64/Synology%20Drive%20Client-3.5.2-16111-x64.exe)现在Synology Drive Client并安装
+[下载链接](https://www.synology.cn/zh-cn/dsm/feature/drive)
 
-### 二、配置客户端
+
+### 二、Windows客户端配置
 
 1、 配置NAS地址，用户名及密码
 
@@ -45,7 +46,12 @@ date: 2025-04-22
   <br>
 </p>
 
-### 三、客户端使用
+### 三、ISO与Android客户端配置
+
+与Windows版本不同，ISO客户端的登录端口是群晖默认后台登陆的端口，我这里是5000的内网穿透端口
+
+### 四、客户端使用
+
 
 像使用Onedrive一样，将文件放到Synology Drive的文件夹下，等待同步完成，即表示文件同步到了服务器。
 
